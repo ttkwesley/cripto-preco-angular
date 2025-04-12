@@ -1,0 +1,6 @@
+<div class="cards-container">
+    <div *ngFor="let preco of precos" class="card">
+        <h3>{{ preco.symbol.slice(0, preco.symbol.length - 4) + '/' + preco.symbol.slice(-4) }}</h3>
+        <span>{{ preco.price | currency:'USD' }}</span> <!-- Formatação de moeda -->
+    </div>
+  </div>

@@ -1,0 +1,26 @@
+.priceTitle {
+    color: rgb(19, 156, 76);
+  }
+
+  #cabecalho {
+    color: rgb(88, 34, 21);
+  }
+
+  .main { 
+    margin-top: 5%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .pesquisa input {
+    width: 25%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+
+  #imgLogo{
+    width: 50px;
+    height: 50px;
+  }
